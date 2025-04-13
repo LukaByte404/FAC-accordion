@@ -6,3 +6,57 @@
   --Purple600: hsl(292, 16%, 49%);
   --Purple950: hsl(292, 42%, 14%);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM sans", sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+.section-1 {
+  background-color: var(--White);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-1 img {
+  width: 100%;
+  margin-bottom: 46px;
+}
+
+.faq-container {
+  background-color: var(--Purple100);
+  width: 600px;
+  border-radius: 15px;
+}
+
+.faq-container div img {
+  width: 50px;
+}
+
+.faq-container div h1 {
+  font-size: 60px;
+}
+
+.faq-container div {
+  display: flex;
+  gap: 10px;
+}
+
+.accordion-questions-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-questions-container button {
+  border: none;
+  background-color: var(--Purple100);
+}
