@@ -11,7 +11,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM sans", sans-serif;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
 }
 
 p {
@@ -19,7 +22,7 @@ p {
 }
 
 .section-1 {
-  background-color: var(--White);
+  background-color: var(--Purple100);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -29,13 +32,15 @@ p {
 
 .section-1 img {
   width: 100%;
-  margin-bottom: 46px;
+  margin-bottom: 100px;
 }
 
 .faq-container {
-  background-color: var(--Purple100);
-  width: 600px;
+  background-color: var(--White);
+  width: 700px;
   border-radius: 15px;
+  position: relative;
+  bottom: 20%;
 }
 
 .faq-container div img {
@@ -44,11 +49,17 @@ p {
 
 .faq-container div h1 {
   font-size: 60px;
+  color: var(--Purple950);
 }
 
 .faq-container div {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  padding: 20px;
+}
+
+.faq-container div img {
+  margin-top: 15px;
 }
 
 .accordion-questions-container {
@@ -58,5 +69,20 @@ p {
 
 .accordion-questions-container button {
   border: none;
-  background-color: var(--Purple100);
+  cursor: pointer;
+  position: relative;
+  left: 90%;
+  top: 65px;
+  background: none;
+}
+
+.accordion-questions-container h3 {
+  margin-left: 20px;
+  margin-bottom: -100px;
+  margin-top: -10px;
+  color: var(--Purple950);
+}
+
+hr {
+  margin-bottom: 40px;
 }
