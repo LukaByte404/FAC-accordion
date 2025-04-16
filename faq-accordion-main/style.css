@@ -46,6 +46,7 @@ p {
 
 .faq-container div img {
   width: 50px;
+  padding-top: 165px;
 }
 
 .faq-container div h1 {
@@ -60,7 +61,7 @@ p {
 }
 
 .faq-container div img {
-  margin-top: 15px;
+  margin-left: -390px;
 }
 
 .accordion-questions-container {
@@ -91,4 +92,23 @@ p {
 .accordion-questions-container h3:hover {
   color: hsl(280.92deg 82.98% 53.92%);
   transition: 0.4s;
+}
+
+.plus-btn p {
+  width: 400px;
+  position: relative;
+  margin-left: -560px;
+  font-size: 15px;
+  bottom: 100px;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.test h3 {
+  padding-bottom: 100px;
+  margin-left: 1px;
 }
