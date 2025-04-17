@@ -1,53 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | FAQ accordion</title>
-  <link rel="stylesheet" href="style.css">
-
-<body>
-  <section class="section-1">
-    <img src="assets/images/background-pattern-desktop.svg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | FAQ Accordion</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section-1">
+      <img
+        src="assets/images/background-pattern-desktop.svg"
+        alt="Background pattern"
+      />
 
       <section class="faq-container">
-    <div>
-      <img src="assets/images/icon-star.svg" alt="purple-star-icon">
-      <h1>FAQs</h1>
-    </div>
-    <div class="accordion-questions-container">
-     <section>
-      <div class="test">
-  <h3>What is Frontend Mentor, and how will it help me?</h3>
-  <p>We provide front-end challenges that include professional web designs.
-       These allow you to practice building websites in a realistic workflow. Taking 
-       these challenges will help you improve your skills, gain experience creating websites, 
-       and build up an incredible project portfolio. We also have a large community of developers,
-        so it's a great way to meet other devs!</p>
+        <div class="faq-header">
+          <img src="assets/images/icon-star.svg" alt="star icon" />
+          <h1>FAQs</h1>
         </div>
-  <button class="plus-btn">
-    <img src="assets/images/icon-plus.svg" alt="" class="plus-img">
-  </button>
-  <h3>Is Frontend Mentor free?</h3>
-  <button class="plus-btn">
-    <img src="assets/images/icon-plus.svg" alt="" class="plus-img">
-    <p>The majority of our challenges are free, yes. We do have some that are premium and require a Pro subscription to access. It will say on each challenge whether they are free or premium, so it's easy to tell the difference.</p>
-  </button>
-  <h3>Can I use Frontend Mentor projects in my portfolio?</h3>
-  <button class="plus-btn" >
-    <img src="assets/images/icon-plus.svg" alt="" class="plus-img" >
-    <p>Definitely! Please do feel free to use whatever you build in your portfolio. Helping developers add professional-looking projects to their portfolio was one of the reasons we created this platform!</p>
-  </button>
-  <h3>How can I get help if I'm stuck on a challenge?</h3>
-  <button class="plus-btn" >
-    <img src="assets/images/icon-plus.svg" alt="" class="plus-img">
-    <p>The best (and quickest) way to get help on a challenge is in our Discord server. There are thousands of other developers in there, so it's a great place to ask questions. We even have a dedicated "help" channel! If you haven't joined yet, you can get an invite to our Discord server here.</p>
-  </button>
-</section>
-    </div>
-  </section>
-  </section>
-<script src="mian.js"></script>
-</body>
+
+        <div class="accordion-questions-container">
+          <div class="faq-item">
+            <div class="question">
+              <h3>What is Frontend Mentor, and how will it help me?</h3>
+              <button class="plus-btn">
+                <img
+                  src="assets/images/icon-plus.svg"
+                  alt="plus icon"
+                  class="plus-img"
+                />
+              </button>
+            </div>
+            <p class="answer">
+              We provide front-end challenges that include professional web
+              designs. These allow you to practice building websites in a
+              realistic workflow. Taking these challenges will help you improve
+              your skills, gain experience creating websites, and build up an
+              incredible project portfolio. We also have a large community of
+              developers, so it's a great way to meet other devs!
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <div class="question">
+              <h3>Is Frontend Mentor free?</h3>
+              <button class="plus-btn">
+                <img
+                  src="assets/images/icon-plus.svg"
+                  alt="plus icon"
+                  class="plus-img"
+                />
+              </button>
+            </div>
+            <p class="answer">
+              The majority of our challenges are free, yes. We do have some that
+              are premium and require a Pro subscription to access. It will say
+              on each challenge whether they are free or premium, so it's easy
+              to tell the difference.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <div class="question">
+              <h3>Can I use Frontend Mentor projects in my portfolio?</h3>
+              <button class="plus-btn">
+                <img
+                  src="assets/images/icon-plus.svg"
+                  alt="plus icon"
+                  class="plus-img"
+                />
+              </button>
+            </div>
+            <p class="answer">
+              Definitely! Please do feel free to use whatever you build in your
+              portfolio. Helping developers add professional-looking projects to
+              their portfolio was one of the reasons we created this platform!
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <div class="question">
+              <h3>How can I get help if I'm stuck on a challenge?</h3>
+              <button class="plus-btn">
+                <img
+                  src="assets/images/icon-plus.svg"
+                  alt="plus icon"
+                  class="plus-img"
+                />
+              </button>
+            </div>
+            <p class="answer">
+              The best (and quickest) way to get help on a challenge is in our
+              Discord server. There are thousands of other developers in there,
+              so it's a great place to ask questions. We even have a dedicated
+              "help" channel! If you haven't joined yet, you can get an invite
+              to our Discord server here.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
 </html>
