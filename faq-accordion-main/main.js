@@ -8,11 +8,11 @@ plusBtn.forEach((button) => {
     const img = button.querySelector(".plus-img");
     const answer = button.closest(".faq-item").querySelector("p");
 
-    if (img.src.includes("icon-minus.svg")) {
-      img.src = "assets/images/icon-plus.svg";
-      answer.classList.add("answer-show");
-    } else if (img.src.includes("icon-plus.svg")) {
+    if (img.src.includes("icon-plus.svg")) {
       img.src = "assets/images/icon-minus.svg";
+      answer.classList.add("answer-show");
+    } else if (img.src.includes("icon-minus.svg")) {
+      img.src = "assets/images/icon-plus.svg";
       answer.classList.remove("answer-show");
     }
   });
